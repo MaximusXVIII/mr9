@@ -1,7 +1,141 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>mr9.github.io</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name | Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>TEST MESSAGE</h1>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Max R</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h2>Hello, I'm Max</h2>
+            <p>Cyber & Networks Engineer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a Cyber & Networks Engineer currently located in Hampshire</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2>Relevant Experience</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>Graduate / Engineer @ Roke Manor Research</h3>
+                    <h4> September 2022 - Present</h4> <br>
+                    <p>Joined the Graduate scheme in 2022 and finished in 2024, this covered a variety of different projects including; </p><br>
+                    <dl>
+                        <dt><strong><u> Research </u></strong></dt><br>
+                        <dd>- Various projects have required a high level of research to be carried out, with this information 
+                            it permitted the ability to progress further into the project at hand and if appropriate to be able to present this information to the customer.
+                        </dd><br>
+                        <dt><strong> <u> Virtualisation</u> </strong></dt><br>
+                        </dt>
+                        <dd>- Assisted in the setup and installation of various virtual machine to establish a small private 
+                            5G network for project purposes.
+                        </dd><br>
+                        <dt><strong> <u> Training</u> </strong></dt><br>
+                        </dt>
+                        <dd>- Undertook internal cyber upskill training called Cyber Launchpad, covering a variety of skills 
+                            including Network Security, Forensics, OSINT and SRE. Since passing this training, I have also been
+                             a part of teaching and helping some of these modules to help the next cohort of students.
+                        <dd>- Took part in Mental Health First Aider training course allowing me to help anyone in need of 
+                            advice or assistance. Showing a commitment to wellbeing and the ability to handle sensitive situations.
+                        </dd><br>
+                      </dl>
+                </div>
+                <div class="project-card">
+                    <h3>IT Help Adviser @ University of Portsmouth</h3>
+                    <h4> September 2020 - September 2022</h4>
+                    <p>Provided 1st and 2nd line support to students with IT-related issues, ranging from simple how-to’s to more complex issues, such as ;               </p><br>
+                    <dl>      
+                        <dt><strong><u> Wireless Troubleshooting </u></strong></dt><br>
+                        <dd>- Investigated any hardware or software based issues within the LAN both across 42 different 
+                            campus based buildings and accommodations for staff and students to troubleshoot any end user issues.
+                        </dd>
+                        <dt><strong><u> Device Troubleshooting</u></strong></dt><br>
+                        <dd>- Provided on phone and in person support to students and staff at the university, delivering 
+                            troubleshooting steps to aid in difficulties with hardware, software and network based issues.
+                        </dd>
+                        <dt><strong><u> Managing Service Desk Queries</u></strong></dt><br>
+                        <dd>- Actively monitoring the service desk for incident or service requests on a daily basis. 
+                            Ensuring that jobs are appropriately triaged so that high priority jobs are completed first. 
+                        </dd>
+                    </dl>
+
+                </div>
+                <div class="project-card">
+                    <h3>Infromation Services Placement @ University of Portsmouth</h3>
+                    <h4> August 2019 - August 2020</h4> <br>
+
+                    <p>Undertook a role within Network Security Services (NSS), the role included;</p><br>
+                    <dl>      
+                        <dt><strong><u> Configuring Networking Equipment </u></strong></dt><br>
+                        <dd>- Proficient in the configuration, installation and maintenance of Cisco products such as Cisco Catalyst 
+                            switch series 2900, 9200 and 9300. Setting up appropriate port channels and VLAN’s across buildings on 
+                            university campus to enable logical grouping of end devices .
+
+                        </dd>
+                        <dt><strong><u> Deployed VoIP Phones </u></strong></dt><br>
+                        <dd>- Provide maintenance and configuration of phones on the VoIP network using Cisco Unified Communications systems (CUCM).
+
+                        </dd>
+                        <dt><strong><u> Setting up Wireless across University campus </u></strong></dt><br>
+                        <dd>- Involved in the daily monitoring of wireless AP’s across campus and upgrade, maintenance and troubleshooting of 
+                            any wireless related issues.
+ 
+                        </dd>
+                    </dl>                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv section">
+        <div class="container">
+            <h2>My CV</h2>
+            <p>View or download my CV below:</p>
+            <a href="cv.pdf" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
 </body>
+</html>
